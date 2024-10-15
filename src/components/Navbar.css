@@ -10,16 +10,37 @@
     color: white;
 }
 
-.navbar ul {
+.navbar-links {
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
 
-.navbar ul li a {
+.navbar-links a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
+
+.navbar-links a:hover {
+    color: #007bff;
+}
+
+.navbar-socials {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.social-icon {
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
