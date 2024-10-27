@@ -29,7 +29,7 @@
 .navbar-socials {
     display: flex;
     gap: 20px;
-    
+    padding-left: 50px;
 }
 
 .social-icon {
@@ -39,6 +39,21 @@
 
 .social-icon:hover {
     color: #007bff;
+}
+
+.cv-link {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.cv-link:hover {
+    background-color: #0056b3;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,60 @@
+.landing-page {
+   height:100vh; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(to right,#7eb1e7, #4198f6,  #1563b8);
+   color: white;
+   text-align: center;
+   padding: 20px;
+   position: relative;
+   overflow: hidden;
+}
+
+.landing-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.landing-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.landing-page p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+}
+
+@media(max-width:768px) {
+    .landing-page h1 {
+        font-size: 2.5rem;
+    }
+
+    .landing-page p {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
